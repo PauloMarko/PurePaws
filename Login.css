@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&family=Koulen&family=Konkhmer+Sleokchher&family=Kufam&family=Maitree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+
+.topo{
+    background-color: #fef7f1;
+    width: 99.2vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+.topo1{
+    margin-right: 82%;
+    margin-left: 5%;
+}
+
+
+
+.cima{
+    text-align: center;
+    font-size: 70px;
+    font-family:'Konkhmer Sleokchher';
+}
+.cima2{
+    margin-top: -3%;
+    font-size: 40px;
+    text-align: center;
+    color: #72B093;
+}
+
+
+
+.meio{
+    background-color: #FEF5ED;
+    width: 50%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    border-radius: 7px;
+    margin-top: 1%;
+}
+#e-mail, #senha{
+    font-family: 'Konkhmer Sleokchher';
+    font-size: 25px;
+    margin-left: 22%;
+}
+.txtnes{
+    background-color: #CFE3DA;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    height: 6vh;
+    font-size: 20px;
+    margin-left: 22%;
+    font-family: 'Konkhmer Sleokchher';
+}
+.meiocima1{
+    margin-top: 5%;
+}
+.meiocima2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32vh;
+}
+.bttcadt{
+    width: 25%;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #72B193;
+    cursor: pointer;
+}
+#cadt{
+    font-family: 'Konkhmer Sleokchher';
+    font-size: 22px;
+}
+.baixo{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher';
+    font-size: 15px;
+}
+#linkcd{
+    color: #0D693E;
+}

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&family=Koulen&family=Konkhmer+Sleokchher&family=Kufam&family=Maitree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: #fef7f1;
+}
+
+
+.topo{
+    background-color: #fef7f1;
+    width: 99.2vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+.topo1{
+    margin-right: 69%;
+    margin-left: 5%;
+}
+.topo2{
+    margin: 10px;
+    
+}
+.topo3{
+    border-radius: 5px;
+    border: solid 1px;
+    height:3vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.meiocima{
+    background-color: #08ba68;
+    height: 59.9vh;
+    display: flex;
+}
+.meiocima1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+}
+#des, #des1{
+    font-size: 61px;
+    text-align: center;
+    font-family: 'Kufam';
+}
+#des2{
+    font-size: 100px;
+    color: #FFFFFF;
+    text-align: center ;
+    font-family: 'Kufam'
+}
+#des3{
+    font-size: 30px;
+    color: #54524E;
+    font-family: 'Kdam Thmor';
+}
+#butmeiocima{
+    border-radius: 11px;
+    border: none;
+    height: 83px;
+    width: 400px;
+    cursor: pointer;
+    margin-left: 8%;
+}
+.meiocima2{
+    margin-left: 27vw;
+}
+
+
+
+.animais{
+    margin-top: 5%;
+    display: flex;
+
+    justify-content: center;
+}
+
+.animais1{
+    background-color: #2b9463;
+    border-radius: 16px;
+    width: 40vw;
+    height: 66vh;
+    margin: 30px;
+}
+
+.dvanimais1{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    height: 60px;
+    width: 20vw;
+    margin-top: 5%;
+    justify-self: center;
+}
+
+#txtani{
+    font-size: 33px;
+    justify-self: center;
+    color: #54524E;
+    font-family: 'Konkhmer Sleokchher';
+}
+#ccff{
+    margin-top: 6.1%;
+    margin-left: 17%;
+    width: 64.1%;
+    
+}
+
+.cimaani{
+    display: flex;
+}
+
+.cimaani1{
+    background-color: #44c68a;
+    border-radius: 16px;
+    width: 20vw;
+    height: 27vh;
+    margin: 30px;
+}
+#rt{
+    margin-top: 3.6%;
+    margin-left: 30%;
+    width: 55%;
+}
+.dvcimaani1{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    height: 60px;
+    width: 13vw;
+    margin-top: 5%;
+    justify-self: center;
+}
+.cimaani2{
+    background-color: #5fe5a7;
+    border-radius: 16px;
+    width: 20vw;
+    height: 27vh;
+    margin: 30px;
+}
+#pss{
+    margin-top: 5.8%;
+    margin-left: 30%;
+    width: 43%;
+}
+.dvcimaani2{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    height: 60px;
+    width: 13vw;
+    margin-top: 5%;
+    justify-self: center;
+}
+.baixoani1{
+    background-color: #18da80;
+    border-radius: 16px;
+    width: 43.4vw;
+    height: 32.7vh;
+    margin: 30px;
+    
+    display: flex;
+}
+#gt{
+    width: 171.6%;
+    margin-left: 70%;
+}
+.dvbaixoani1{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    height: 60px;
+    width: 15vw;
+    margin-top: 14%;
+    justify-self: center;
+    margin-left: 42%;
+}
+
+
+#omelhor{
+    font-size: 90px;
+    color: #54524E;
+    justify-self: center;
+    margin-top: 6%;
+    font-family: 'Koulen';
+}
+
+
+.produtos{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+.produtos1, .produtos2, .produtos3, .produtos4{
+    background-color: #08ba68;
+    width: 18%;
+    height: 50vh;
+    justify-items: center;
+    border-radius: 4px;
+}
+#SR, #SR1{
+    width: 65%;
+    margin-left: 17%;
+    margin-top: 20%;
+}
+#SR1{
+    width: 70%;
+    margin-top: 33%;
+}
+.txtprodutos, .txtprodutos1{
+    font-family: 'Maitree';
+    font-size: 20px;
+}
+.txtprodutos{
+    margin-top: 5%;
+}
+.CB{
+    display: flex;
+    margin-top: 8%;
+    justify-self: end;
+    margin-right: 5%;
+}
+#CB1{
+    margin-top: 11.4%;
+}
+#CBimg{
+    width: 100%;
+    margin: 3px;
+}
+
+
+
+.baixomeio{
+    margin-top: 9%;
+    background-color:#08ba68 ;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+
+}
+.esquerda{
+    width: 60%;
+    margin-left: 5%;
+}
+#txtesquerda{
+    margin-top: 10%;
+    font-size: 65px;
+    font-family: 'Noto Sans';
+}
+#bttsocorro{
+    width: 40%;
+    height: 14%;
+    margin-top: 6%;
+    border-radius: 6px;
+    border: none;
+    background-color: #1f1e1e;
+    cursor: pointer;
+}
+#txtsocorro{
+    color: #FFFFFF;
+    font-size: 37px;
+}
+#CCA{
+    width: 145%;
+    margin-left: 4%;
+    margin-top: 5.8%;
+}
+
+
+
+.cimafim{
+    margin-top: 10%;
+}
+.carrp{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.imgcarrp{
+    width: 3%;
+}
+.txtcarro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+#txtcarrp,#txtcarrp1, #txtcarrp2 {
+    font-size: 35px;
+    font-family: 'Noto Sans';
+}
+#txtcarrp1{
+    margin-left: -30%;
+}
+#txtcarrp2{
+    margin-left: -33%;
+}
+
+
+
+.fim{
+    margin-top: 10%;
+    background-color: #25ab6d;
+    height: 15vh;
+
+}
+#PRws{
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Konkhmer Sleokchher';
+    justify-self: center;
+}
+.IWT{
+    display: flex;
+    justify-content: center;
+}
+#tel{
+    margin-top: -12%;
+}
+.insta:hover, .whats:hover, .tele:hover{
+    cursor: pointer;
+}

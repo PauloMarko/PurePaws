@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&family=Koulen&family=Konkhmer+Sleokchher&family=Kufam&family=Maitree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: #fef7f1;
+}
+
+
+.topo{
+    background-color: #fef7f1;
+    width: 99.2vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+.topo1{
+    margin-right: 69%;
+    margin-left: 5%;
+}
+.topo2{
+    margin: 10px;
+    
+}
+.topo3{
+    border-radius: 5px;
+    border: solid 1px;
+    height:3vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.cima{
+    display: flex;
+    background-color:#08ba68 ;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cima1{
+    display: flex;
+    align-items: center;
+}
+#txtcima1{
+    font-size: 26px;
+    font-family: 'Noto Sans';
+}
+
+
+
+.baixocima{
+    display: flex;
+    margin-top: 0.7%;
+    margin-left: 5%;
+}
+#txttodos{
+    font-size: 55px;
+    font-family: 'Noto Sans';
+}
+.algunsp{
+    display: flex;
+    align-items: center;
+    margin-left: 75%;
+}
+#txtalgunsp{
+    font-size: 23px;
+    font-family: 'Noto Sans';
+}
+
+
+.cimameio{
+    margin-top: 3%;
+    background-color: #9dcbb5;
+    display: flex;
+    height: 10vh;
+}
+.filtrar{
+    border: solid #6d9783 5px;
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ordenar{
+    border: solid #6d9783 5px;
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#txtfiltrar{
+    font-size: 27px;
+    font-family:'Konkhmer Sleokchher';
+}
+#txtordenar{
+    font-size: 27px;
+    font-family:'Konkhmer Sleokchher';
+}
+#txtordenar1{
+    margin-top: -2%;
+    font-size: 19px;
+    font-family:'Konkhmer Sleokchher';
+}
+
+
+
+
+.meio{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#pimg{
+    width: 80%;
+}
+#um{
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Noto Sans';
+}
+#dois{
+    text-decoration: line-through;
+    color: #808080;
+    font-size: 30px;
+    font-family: 'Lateef';
+}
+#tres{
+    margin-top: -3%;
+    font-family: 'Lateef';
+    font-size: 30px;
+    font-weight: bold;
+}
+#tress{
+    color: red;
+}
+#quatro{
+    margin-top: -3%;
+    font-family: 'Lateef';
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+#bttcomprar{
+    width: 7vw;
+    background-color: #9DCBB5;
+    border-radius: 9px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+#bttcomprar:hover{
+    cursor: pointer;
+}
+#txtc{
+    color: #145637;
+    font-family: 'Lateef';
+    font-size: 30px;
+    font-weight: bold;
+}
+#rca{
+    margin-left: -5%;
+    margin-top: -1.4%;
+}
+
+
+
+.fim{
+    margin-top: 10%;
+    background-color: #25ab6d;
+    height: 15vh;
+
+}
+.IWT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tel{
+    margin-top: -12%;
+}
+.insta:hover, .whats:hover, .tele:hover{
+    cursor: pointer;
+}
+.insta,.whats,.tele{
+    margin-top: 3%;
+}
