@@ -1,0 +1,9 @@
+body.dark-theme {
+    background-color: #484747;
+    color: white;
+}
+
+body.light-theme {
+    background-color: #fef7f1;
+    color: black;
+}

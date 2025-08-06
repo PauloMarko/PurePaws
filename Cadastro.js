@@ -27,3 +27,11 @@ function validateEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
+
+const prefersDarkScheme = window.matchMedia("(prefer-colour-scheme: dark)").matches;
+
+if (prefersDarkScheme) {
+    document.body.classList.add("dark-theme ");
+} else {
+    document.body.classList.add("light-theme");
+}

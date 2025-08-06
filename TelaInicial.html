@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Inicial</title>
     <link rel="stylesheet" href="TelaInicial.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <div class="topo">
+    <header class="topo">
         <div class="topo1">
-            <a href="TelaInicial.html">
-                <img src="img/LOGO.png" alt=""></div>  
+            <a href="TelaInicial.html" id="PurePaws">
+                <img src="img/LOGO.png" id="logo">
+                <h1>Pure</h1> 
+                <h1 id="p-verde">P</h1>
+                <h1>aws</h1> 
             </a>
+        </div>
+        <div id="themes">
+            <button id="btn-tema" class="topo2">
+                <span class="material-symbols-outlined" id="icone-tema"></span>
+            </button>
+        </div>
         <div class="topo2">
-            <img src="img/BOLSA.png" alt=""></div>
+            <span class="material-symbols-outlined">local_mall</span>
+        </div>
         <div class="topo2">
-            <img src="img/CORAÇÃO.png" alt=""></div>
+            <span class="material-symbols-outlined">favorite</span>
+        </div>
         <div class="topo2">
-            <img src="img/USUARIO.png" alt=""></div>
-        <div class="topo2">
-            <input type="text" placeholder=" 🔍︎  Pesquisar" class="topo3"></div>
-    </div>
+            <span class="material-symbols-outlined">person</span>
+        </div>
+        <div id="search">
+            <input type="text" placeholder=" 🔍︎  Pesquisar" class="topo3">
+        </div>
+        </header>
 
 
 
@@ -109,9 +123,9 @@
 
     <div class="cimafim">
         <div class="carrp">
-            <img class="imgcarrp" src="img/BOLSAB.png" alt="BOLSA">
-            <img class="imgcarrp" src="img/CARRO.png" alt="CARRO">
-            <img class="imgcarrp" src="img/VERIFICADO.png" alt="VERIFICADO">
+            <span class="material-symbols-outlined imgcarrp">local_mall</span>
+            <span class="material-symbols-outlined imgcarrp">directions_car</span>
+            <span class="material-symbols-outlined imgcarrp">verified</span>
         </div>
         <div class="txtcarro">
             <div class="txtc1">
@@ -144,5 +158,6 @@
     </div>	
 
     <script src="TelaInicial.js"></script>
+    <script src="themes.js"></script>
 </body>
 </html>
