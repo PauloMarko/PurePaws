@@ -39,7 +39,7 @@ let tema = localStorage.getItem('theme') ? localStorage.getItem('theme') : (wind
 document.body.classList.add(tema + "-theme");
 
 btnTema.addEventListener("click", function() {
-    const tema = document.body.classList.contains("dark-theme") ? "dark" : "light";
+    let tema = document.body.classList.contains("dark-theme") ? "dark" : "light";
 
     if (tema === "dark") {
         document.body.classList.replace("dark-theme", "light-theme");

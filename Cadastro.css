@@ -17,20 +17,83 @@ body {
     width: 99.2vw;
     height: 10vh;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
+
+body.dark-theme .topo {
+    background-color: #484747;
+    width: 100vw;
+}
+
+body.dark-theme {
+    background-color: #6B6B6B;
+}
+
 .topo1{
     margin-right: 82%;
     margin-left: 5%;
 }
 
+#PurePaws {
+    text-decoration: none;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    display: flex;
+    align-items: center;
+    color: black;
+}
 
+#PurePaws h1{
+    font-size: 32px;
+}
+
+#logo {
+    padding-right: 10px;
+    width: 100%;
+    max-width: 75px;
+}
+
+body.dark-theme #PurePaws {
+    color: white;
+}
+
+#p-verde {
+    color: #08ba68;
+}
+
+#btn-tema {
+    all: unset;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    appearance: button;
+    margin-top: 30%;
+    margin-left: -4.4vw;
+}
+
+#icone-tema {
+    font-size: 32px;
+}
+
+#voltar-login a{
+    margin-left: -2vw;
+    text-decoration: none;
+    color: black;
+}
+
+#voltar-login span{
+    font-size: 35px;
+}
+
+body.dark-theme #voltar-login span{
+    color: white;
+}
 
 .cima{
     text-align: center;
     font-size: 70px;
-    font-family:'Konkhmer Sleokchher';
+    font-family:'Konkhmer Sleokchher', sans-serif;
 }
 .cima2{
     margin-top: -3%;
@@ -38,8 +101,6 @@ body {
     text-align: center;
     color: #72B093;
 }
-
-
 
 .meio{
     background-color: #FEF5ED;
@@ -51,8 +112,13 @@ body {
     border-radius: 7px;
     margin-top: 1%;
 }
+
+body.dark-theme .meio{
+    background-color: #4D4D4D;
+}
+
 #nome, #e-mail, #senha{
-    font-family: 'Konkhmer Sleokchher';
+    font-family: 'Konkhmer Sleokchher', sans-serif;
     font-size: 25px;
     margin-left: 22%;
 }
@@ -64,11 +130,13 @@ body {
     height: 6vh;
     font-size: 20px;
     margin-left: 22%;
-    font-family: 'Konkhmer Sleokchher';
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    padding-left: 15px;
 }
+
 .meiocima1{
     margin-top: 5%;
-}
+}   
 .meiocima2{
     display: flex;
     align-items: center;
@@ -80,10 +148,15 @@ body {
     height: 7vh;
     border-radius: 10px;
     border: none;
-    background-color: #72B193;
+    background-color: #00C87B;
     cursor: pointer;
 }
+
+body.dark-theme .bttcadt{
+    color: white;
+}
+
 #cadt{
-    font-family: 'Konkhmer Sleokchher';
+    font-family: 'Konkhmer Sleokchher', sans-serif;
     font-size: 22px;
 }

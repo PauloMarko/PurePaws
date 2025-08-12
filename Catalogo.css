@@ -42,7 +42,6 @@ body {
     display: flex;
     background-color:#08ba68 ;
     height: 10vh;
-    display: flex;
     justify-content: space-evenly;
 }
 .cima1{
@@ -51,7 +50,7 @@ body {
 }
 #txtcima1{
     font-size: 26px;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -63,7 +62,7 @@ body {
 }
 #txttodos{
     font-size: 55px;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
 }
 .algunsp{
     display: flex;
@@ -72,7 +71,7 @@ body {
 }
 #txtalgunsp{
     font-size: 23px;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -101,16 +100,16 @@ body {
 }
 #txtfiltrar{
     font-size: 27px;
-    font-family:'Konkhmer Sleokchher';
+    font-family:'Konkhmer Sleokchher', sans-serif;
 }
 #txtordenar{
     font-size: 27px;
-    font-family:'Konkhmer Sleokchher';
+    font-family:'Konkhmer Sleokchher', sans-serif;
 }
 #txtordenar1{
     margin-top: -2%;
     font-size: 19px;
-    font-family:'Konkhmer Sleokchher';
+    font-family:'Konkhmer Sleokchher', sans-serif;
 }
 
 
@@ -127,17 +126,17 @@ body {
 #um{
     margin-top: 5%;
     font-size: 30px;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
 }
 #dois{
     text-decoration: line-through;
     color: #808080;
     font-size: 30px;
-    font-family: 'Lateef';
+    font-family: 'Lateef', sans-serif;
 }
 #tres{
     margin-top: -3%;
-    font-family: 'Lateef';
+    font-family: 'Lateef', sans-serif;
     font-size: 30px;
     font-weight: bold;
 }
@@ -146,7 +145,7 @@ body {
 }
 #quatro{
     margin-top: -3%;
-    font-family: 'Lateef';
+    font-family: 'Lateef', sans-serif;
     font-weight: bold;
     font-size: 30px;
     color: red;
@@ -164,9 +163,10 @@ body {
 #bttcomprar:hover{
     cursor: pointer;
 }
+
 #txtc{
     color: #145637;
-    font-family: 'Lateef';
+    font-family: 'Lateef', sans-serif;
     font-size: 30px;
     font-weight: bold;
 }

@@ -5,39 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="Cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <div class="topo">
-        <div class="topo1">
-            <img src="img/LOGO.png" alt="">
+    <header>
+        <nav class="topo">
+            <div class="topo1">
+                <a href="Cadastro.html" id="PurePaws">
+                    <img src="img/LOGO.png" id="logo" alt="">
+                    <h1>Pure</h1>
+                    <h1 id="p-verde">P</h1>
+                    <h1>aws</h1>
+                </a>
+            </div>
+            <div id="themes">
+                <button id="btn-tema">
+                    <span class="material-symbols-outlined" id="icone-tema"></span>
+                </button>
+            </div>
+            <div id="voltar-login">
+                <a href="Login.html">
+                    <span class="material-symbols-outlined">arrow_circle_left</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>    
+        <p class="cima">Cadastro</p>
+        <h1 class="cima2">_________________________________________________________</h1>
+
+        <div class="meio">
+            <div class="meiocima1">
+                <p id="nome">Nome</p>
+                <input class="txtnes" id="nomeInput" type="text" placeholder=" Digite seu nome completo"> 
+                <p id="e-mail">E-mail</p>
+                <input class="txtnes" id="emailInput" type="text" placeholder="Digite seu E-mail">
+                <p id="senha">Senha</p>
+                <input class="txtnes" id="senhaInput" type="text" placeholder="Digite sua Senha">
+            </div>
+            <span id="cadterro"></span>
+            <div class="meiocima2">
+                <button class="bttcadt" id="btncad"><p id="cadt">Cadastre-se</p></button>
+            </div>
         </div>
-        <div>
-            <img src="img/VOLTARLOGIN.png" alt="">
-        </div>
-        
-    </div>
-
-
-
-    <p class="cima">Cadastro</p>
-    <h1 class="cima2">_________________________________________________________</h1>
-
-
-
-    <div class="meio">
-        <div class="meiocima1">
-            <p id="nome">Nome</p>
-            <input class="txtnes" id="nomeInput" type="text" placeholder=" Digite seu nome completo"> 
-            <p id="e-mail">E-mail</p>
-            <input class="txtnes" id="emailInput" type="text" placeholder="Digite seu E-mail">
-            <p id="senha">Senha</p>
-            <input class="txtnes" id="senhaInput" type="text" placeholder="Digite sua Senha">
-        </div>
-        <span id="cadterro"></span>
-        <div class="meiocima2">
-            <button class="bttcadt" id="btncad"><p id="cadt">Cadastre-se</p></button>
-        </div>
-    </div>
+    </main>
     <script src="Cadastro.js"></script>
     <script src="themes.js"></script>
 </body>
