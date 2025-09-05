@@ -7,7 +7,7 @@ btncad.addEventListener("click", function() {
     const nome = document.getElementById("nomeInput").value;
 
     if (!email || !senha || !nome) {
-        cadterro.textContent = 'Um dos campos está vazio. Preencha-lo.';
+        cadterro.textContent = 'Um dos campos está vazio. Por favor, preencha-lo.';
         cadterro.style.color = 'red';
         cadterro.style.fontFamily = 'Noto Sans';
         cadterro.style.textAlign = 'center';
