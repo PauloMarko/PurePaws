@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
     <div class="topo">
         <div class="topo1">
-            <a href="Login.html">
-                <img src="img/LOGO.png" alt="">
+            <a href="Login.html" id="PurePaws">
+                <img src="img/LOGO.png" alt="" id="logo">
+                <h1>Pure</h1>
+                <h1 id="p-verde">P</h1>
+                <h1>aws</h1>
             </a>
         </div>
-        <div>
-            <img src="img/VOLTARLOGIN.png" alt="">
+        <div id="themes">
+            <button id="btn-tema">
+                <span class="material-symbols-outlined" id="icone-tema"></span>
+            </button>
         </div>
-        
+        <div id="voltar-login">
+            <a href="Login.html">
+                <span class="material-symbols-outlined">arrow_circle_left</span>
+            </a>
+        </div>        
     </div>
 
 
@@ -29,17 +39,18 @@
     <div class="meio">
         <div class="meiocima1">
             <p id="email">E-mail</p>
-            <input class="txtnes" type="text" placeholder="Digite seu E-mail">
+            <input id="emailInput" class="txtnes" type="text" placeholder="Digite seu E-mail">
             <p id="senha">Senha</p>
-            <input class="txtnes" type="text" placeholder="Digite sua Senha">
+            <input id="senhaInput" class="txtnes" type="text" placeholder="Digite sua Senha">
         </div>
+        <span id="loginerro"></span>
         <div class="meiocima2">
             <button class="bttcadt" id="btnlogin"><p id="cadt">Login</p></button>
         </div>
     </div>
 
 
-    <p class="baixo">Já cadastrou sua conta?<a id="linkcd" href="Cadastro.html"> Cadastre-se</a></p>
+    <p class="baixo">Já cadastrou sua conta? <a id="linkcd" href="Cadastro.html">Cadastre-se</a></p>
 
     <script src="Login.js"></script>
     <script src="themes.js"></script>

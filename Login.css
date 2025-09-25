@@ -25,7 +25,70 @@ body {
     margin-left: 5%;
 }
 
+body.dark-theme .topo {
+    background-color: #484747;
+    width: 100vw;
+}
 
+body.dark-theme {
+    background-color: #6B6B6B;
+}
+
+#PurePaws {
+    text-decoration: none;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+#PurePaws h1 {
+    font-size: 32px;
+}
+
+body.dark-theme #PurePaws {
+    color: white;
+}
+
+#p-verde {
+    color: #08ba68;
+}
+
+#logo {
+    padding-right: 10px;
+    width: 100%;
+    max-width: 75px;
+}
+
+#btn-tema {
+    all: unset;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    appearance: button;
+    margin-top: 30%;
+    margin-left: -4.4vw;
+}
+
+#icone-tema {
+    font-size: 32px;
+}
+
+#voltar-login a{
+    margin-left: -2vw;
+    text-decoration: none;
+    color: black;
+}
+
+#voltar-login span{
+    font-size: 35px;
+}
+
+body.dark-theme #voltar-login span{
+    color: white;
+}
 
 .cima{
     text-align: center;
@@ -51,6 +114,11 @@ body {
     border-radius: 7px;
     margin-top: 1%;
 }
+
+body.dark-theme .meio{
+    background-color: #4D4D4D;
+}
+
 #email, #senha{
     font-family: 'Konkhmer Sleokchher';
     font-size: 25px;
@@ -81,8 +149,11 @@ body {
     height: 7vh;
     border-radius: 10px;
     border: none;
-    background-color: #72B193;
+    background-color: #00C87B;
     cursor: pointer;
+}
+body.dark-theme .bttcadt{
+    color: white;
 }
 #cadt{
     font-family: 'Konkhmer Sleokchher';
@@ -96,4 +167,8 @@ body {
 }
 #linkcd{
     color: #0D693E;
+}
+
+body.dark-theme #linkcd {
+    color: #1dd47f;
 }
