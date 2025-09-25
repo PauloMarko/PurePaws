@@ -1,1 +1,0 @@
-### [Visite nosso site](https://purepaws.duckdns.org)
